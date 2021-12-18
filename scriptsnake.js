@@ -66,10 +66,7 @@ function iniciarJogo(){
         
         food.x = Math.floor(Math.random() * 15 + 1) * box;
         food.y = Math.floor(Math.random() * 15 + 1) * box;
-        f+=1      
-    
-        
-        //point.compute(f)
+        f+=1 
     }//criar comida aleatoria
 
     let newHead = {
